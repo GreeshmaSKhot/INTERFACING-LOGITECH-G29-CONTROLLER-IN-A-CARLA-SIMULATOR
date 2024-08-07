@@ -3,6 +3,7 @@
 ## Introduction
 This project explores the integration and utilization of the Logitech G29 steering wheel controller in the CARLA (Car Learning to Act) simulator environment. CARLA is an open-source simulator that offers a highly realistic urban driving environment, making it ideal for autonomous driving research. The Logitech G29 is a popular choice for driving simulators due to its precise steering, pedal inputs, and force feedback.
 
+
 ## Objectives
 - Map the Logitech G29's steering, acceleration, braking, and other controls to the CARLA simulator.
 - Evaluate performance impacts such as input latency, responsiveness, and the realism of force feedback to simulate real-world driving conditions.
@@ -38,3 +39,11 @@ This project explores the integration and utilization of the Logitech G29 steeri
 3. **Install Python Packages**
    ```bash
    pip install carla pygame
+
+### Conclusion
+The Logitech G29 steering wheel controller significantly enhances the realism and engagement of CARLA simulations. It is a dependable and affordable tool for developers and researchers focused on autonomous vehicle research. This project provides valuable insights for future research and development in this field.
+
+### Future Work
+Further optimization of input mappings for different driving scenarios.
+Enhanced feedback mechanisms to simulate various road conditions and vehicle dynamics.
+Extended usability studies with a broader range of participants.
